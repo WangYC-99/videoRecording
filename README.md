@@ -2,8 +2,9 @@
 video recording with the tools from opencv
 
 使用方法:
-1.创建build文件夹并编译，在bin目录中生成可执行文件。
+1.创建bin、video、build文件夹并编译，在bin目录中生成可执行文件。
 ```
+mkdir bin && mkdir video
 mkdir build && cd build
 cmake ..
 make
